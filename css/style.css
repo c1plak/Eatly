@@ -1,0 +1,33 @@
+:root {
+    /*--general-text: #312C27;*/
+}
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+
+body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    line-height: 1.5;
+    /*color: var(--general-text);*/
+    /*background: var(--general-bg);*/
+}
+
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
