@@ -2,6 +2,10 @@
     /*--general-text: #312C27;*/
 }
 
+.main {
+    flex-grow: 1;
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -30,4 +34,56 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     height: 100%;
+}
+
+/* ==============Header================ */
+.header {
+    padding-top: 50px;
+    margin-bottom: 85px;
+    margin-bottom: 50px;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Inter";
+    color: #606060;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(203, 203, 203);
+    padding-bottom: 24px;
+}
+.navbar {
+    display: flex;
+    gap: 103px;
+    align-items: center;
+}
+.navbar__logo {
+}
+.logo {
+    max-width: 112px;
+}
+.logo__img {
+    width: 100%;
+}
+.navbar__list {
+    display: flex;
+    gap: 53px;
+}
+.navbar__item {
+}
+.navbar__link {
+}
+.authorization {
+    display: flex;
+    gap: 9px;
+    font-weight: bold;
+}
+.authorization__logIn {
+    padding: 18px 26px;
+}
+.authorization__signUp {
+    color: #F9F9F9;
+    padding: 18px 26px;
+    background: #6C5FBC;
+    border-radius: 18px;
 }
