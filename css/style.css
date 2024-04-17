@@ -1380,6 +1380,14 @@ body {
         font-size: 13px;
     }
 
+/* =============Restaurants============= */
+    .restaurants__title {
+        font-size: 40px;
+    }
+    .restaurants__title span{
+        word-wrap: break-word;
+    }
+
 /* =============Footer============= */
     .footer__copyright {
         font-size: 14px;
