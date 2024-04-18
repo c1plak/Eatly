@@ -7,6 +7,7 @@
     <title>Eatly</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -239,7 +240,7 @@
                                 </div>
                                 <div class="card__content">
                                     <div class="card__content-info">
-                                        <span class="card__restaurant-type">Healthy</span>
+                                        <span class="card__restaurant-type typeLabel--orange">Healthy</span>
                                         <h3 class="card__restaurant-title">The Chicken King</h3>
                                         <div class="card__restaurant-description">
                                             <span class="card__restaurant-time">24min •</span>
@@ -262,11 +263,11 @@
                             </li>
                             <li class="card">
                                 <div class="card__img">
-                                    <img src="" alt="">
+                                    <img src="./img/content/restaurant-bg2.png" alt="">
                                 </div>
                                 <div class="card__content">
                                     <div class="card__content-info">
-                                        <span class="card__restaurant-type">Healthy</span>
+                                        <span class="card__restaurant-type typeLabel--red">Trending</span>
                                         <h3 class="card__restaurant-title">The Chicken King</h3>
                                         <div class="card__restaurant-description">
                                             <span class="card__restaurant-time">24min •</span>
@@ -293,7 +294,7 @@
                                 </div>
                                 <div class="card__content">
                                     <div class="card__content-info">
-                                        <span class="card__restaurant-type">Healthy</span>
+                                        <span class="card__restaurant-type typeLabel--orange">Healthy</span>
                                         <h3 class="card__restaurant-title">The Chicken King</h3>
                                         <div class="card__restaurant-description">
                                             <span class="card__restaurant-time">24min •</span>
@@ -315,9 +316,327 @@
                                 </div>
                             </li>
                         </ul>
+                        <a href="#" class="viewAll">
+                            <span>View All</span>
+                            <img src="./img/icons/arrow-right2.svg" alt="">
+                        </a>
                     </div>
                 </div>
 
+            </section>
+            <section class="dishes">
+                <div class="container">
+                    <div class="dishes__inner">
+                        <h2 class="dishes__title">Our Top <span>Dishes</span></h2>
+                        <div class="dishes__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="slide swiper-slide">
+                                    <a href="#" class="foodCard">
+                                        <div class="foodCard__inner">
+                                            <div class="foodCard__img">
+                                                <img src="./img/content/dishes-dish1.png" alt="">
+                                            </div>
+
+                                            <div class="foodCard__content">
+                                                <span class="foodCard__food-type typeLabel--orange">Healthy</span>
+                                                <h3 class="foodCard__food-title">Chicken Hell</h3>
+                                                <div class="foodCard__food-description">
+                                                    <span class="foodCard__food-time">24min •</span>
+                                                    <div class="foodCard__food-rating">
+                                                        <img src="./img/icons/star1.svg" alt="">
+                                                        4.8
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="foodCard__addCart">
+                                            <div class="foodCard__addCart-price">$19<span>.99</span></div>
+                                            <div class="foodCard__addCart-plus">
+                                                <svg width="15.000000" height="15.000000" viewBox="0 0 15 15"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <path id="+"
+                                                        d="M14.28 8.36L7.94 8.36L7.94 14.78L5.41 14.78L5.41 8.36L-0.9 8.36L-0.9 6.06L5.41 6.06L5.41 -0.39L7.94 -0.39L7.94 6.06L14.28 6.06L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                                    <path id="+"
+                                                        d="M14.28 8.36L14.28 6.06L7.94 6.06L7.94 4.25L7.94 -0.39L5.41 -0.39L5.41 6.06L-0.9 6.06L-0.9 8.36L5.41 8.36L5.41 14.78L7.94 14.78L7.94 8.36L14.28 8.36L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide swiper-slide">
+                                    <a href="#" class="foodCard">
+                                        <div class="foodCard__inner">
+                                            <div class="foodCard__img">
+                                                <img src="./img/content/dishes-dish2.png" alt="">
+                                            </div>
+
+                                            <div class="foodCard__content">
+                                                <span class="foodCard__food-type typeLabel--red">Trending</span>
+                                                <h3 class="foodCard__food-title">Swe Dish</h3>
+                                                <div class="foodCard__food-description">
+                                                    <span class="foodCard__food-time">24min •</span>
+                                                    <div class="foodCard__food-rating">
+                                                        <img src="./img/icons/star1.svg" alt="">
+                                                        4.8
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="foodCard__addCart">
+                                            <div class="foodCard__addCart-price">$19<span>.99</span></div>
+                                            <div class="foodCard__addCart-plus">
+                                                <svg width="15.000000" height="15.000000" viewBox="0 0 15 15"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <path id="+"
+                                                        d="M14.28 8.36L7.94 8.36L7.94 14.78L5.41 14.78L5.41 8.36L-0.9 8.36L-0.9 6.06L5.41 6.06L5.41 -0.39L7.94 -0.39L7.94 6.06L14.28 6.06L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                                    <path id="+"
+                                                        d="M14.28 8.36L14.28 6.06L7.94 6.06L7.94 4.25L7.94 -0.39L5.41 -0.39L5.41 6.06L-0.9 6.06L-0.9 8.36L5.41 8.36L5.41 14.78L7.94 14.78L7.94 8.36L14.28 8.36L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide swiper-slide">
+                                    <a href="#" class="foodCard">
+                                        <div class="foodCard__inner">
+                                            <div class="foodCard__img">
+                                                <img src="./img/content/dishes-dish3.png" alt="">
+                                            </div>
+
+                                            <div class="foodCard__content">
+                                                <span class="foodCard__food-type typeLabel--green">Supreme</span>
+                                                <h3 class="foodCard__food-title">Swe Dish</h3>
+                                                <div class="foodCard__food-description">
+                                                    <span class="foodCard__food-time">24min •</span>
+                                                    <div class="foodCard__food-rating">
+                                                        <img src="./img/icons/star1.svg" alt="">
+                                                        4.8
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="foodCard__addCart">
+                                            <div class="foodCard__addCart-price">$19<span>.99</span></div>
+                                            <div class="foodCard__addCart-plus">
+                                                <svg width="15.000000" height="15.000000" viewBox="0 0 15 15"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <path id="+"
+                                                        d="M14.28 8.36L7.94 8.36L7.94 14.78L5.41 14.78L5.41 8.36L-0.9 8.36L-0.9 6.06L5.41 6.06L5.41 -0.39L7.94 -0.39L7.94 6.06L14.28 6.06L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                                    <path id="+"
+                                                        d="M14.28 8.36L14.28 6.06L7.94 6.06L7.94 4.25L7.94 -0.39L5.41 -0.39L5.41 6.06L-0.9 6.06L-0.9 8.36L5.41 8.36L5.41 14.78L7.94 14.78L7.94 8.36L14.28 8.36L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide swiper-slide">
+                                    <a href="#" class="foodCard">
+                                        <div class="foodCard__inner">
+                                            <div class="foodCard__img">
+                                                <img src="./img/content/dishes-dish1.png" alt="">
+                                            </div>
+
+                                            <div class="foodCard__content">
+                                                <span class="foodCard__food-type typeLabel--orange">Healthy</span>
+                                                <h3 class="foodCard__food-title">Chicken Hell</h3>
+                                                <div class="foodCard__food-description">
+                                                    <span class="foodCard__food-time">24min •</span>
+                                                    <div class="foodCard__food-rating">
+                                                        <img src="./img/icons/star1.svg" alt="">
+                                                        4.8
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="foodCard__addCart">
+                                            <div class="foodCard__addCart-price">$19<span>.99</span></div>
+                                            <div class="foodCard__addCart-plus">
+                                                <svg width="15.000000" height="15.000000" viewBox="0 0 15 15"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <path id="+"
+                                                        d="M14.28 8.36L7.94 8.36L7.94 14.78L5.41 14.78L5.41 8.36L-0.9 8.36L-0.9 6.06L5.41 6.06L5.41 -0.39L7.94 -0.39L7.94 6.06L14.28 6.06L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                                    <path id="+"
+                                                        d="M14.28 8.36L14.28 6.06L7.94 6.06L7.94 4.25L7.94 -0.39L5.41 -0.39L5.41 6.06L-0.9 6.06L-0.9 8.36L5.41 8.36L5.41 14.78L7.94 14.78L7.94 8.36L14.28 8.36L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide swiper-slide">
+                                    <a href="#" class="foodCard">
+                                        <div class="foodCard__inner">
+                                            <div class="foodCard__img">
+                                                <img src="./img/content/dishes-dish2.png" alt="">
+                                            </div>
+
+                                            <div class="foodCard__content">
+                                                <span class="foodCard__food-type typeLabel--red">Trending</span>
+                                                <h3 class="foodCard__food-title">Swe Dish</h3>
+                                                <div class="foodCard__food-description">
+                                                    <span class="foodCard__food-time">24min •</span>
+                                                    <div class="foodCard__food-rating">
+                                                        <img src="./img/icons/star1.svg" alt="">
+                                                        4.8
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="foodCard__addCart">
+                                            <div class="foodCard__addCart-price">$19<span>.99</span></div>
+                                            <div class="foodCard__addCart-plus">
+                                                <svg width="15.000000" height="15.000000" viewBox="0 0 15 15"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <path id="+"
+                                                        d="M14.28 8.36L7.94 8.36L7.94 14.78L5.41 14.78L5.41 8.36L-0.9 8.36L-0.9 6.06L5.41 6.06L5.41 -0.39L7.94 -0.39L7.94 6.06L14.28 6.06L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                                    <path id="+"
+                                                        d="M14.28 8.36L14.28 6.06L7.94 6.06L7.94 4.25L7.94 -0.39L5.41 -0.39L5.41 6.06L-0.9 6.06L-0.9 8.36L5.41 8.36L5.41 14.78L7.94 14.78L7.94 8.36L14.28 8.36L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide swiper-slide">
+                                    <a href="#" class="foodCard">
+                                        <div class="foodCard__inner">
+                                            <div class="foodCard__img">
+                                                <img src="./img/content/dishes-dish1.png" alt="">
+                                            </div>
+
+                                            <div class="foodCard__content">
+                                                <span class="foodCard__food-type typeLabel--orange">Healthy</span>
+                                                <h3 class="foodCard__food-title">The Chicken King</h3>
+                                                <div class="foodCard__food-description">
+                                                    <span class="foodCard__food-time">24min •</span>
+                                                    <div class="foodCard__food-rating">
+                                                        <img src="./img/icons/star1.svg" alt="">
+                                                        4.8
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="foodCard__addCart">
+                                            <div class="foodCard__addCart-price">$19<span>.99</span></div>
+                                            <div class="foodCard__addCart-plus">
+                                                <svg width="15.000000" height="15.000000" viewBox="0 0 15 15"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <path id="+"
+                                                        d="M14.28 8.36L7.94 8.36L7.94 14.78L5.41 14.78L5.41 8.36L-0.9 8.36L-0.9 6.06L5.41 6.06L5.41 -0.39L7.94 -0.39L7.94 6.06L14.28 6.06L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                                    <path id="+"
+                                                        d="M14.28 8.36L14.28 6.06L7.94 6.06L7.94 4.25L7.94 -0.39L5.41 -0.39L5.41 6.06L-0.9 6.06L-0.9 8.36L5.41 8.36L5.41 14.78L7.94 14.78L7.94 8.36L14.28 8.36L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide swiper-slide">
+                                    <a href="#" class="foodCard">
+                                        <div class="foodCard__inner">
+                                            <div class="foodCard__img">
+                                                <img src="./img/content/dishes-dish1.png" alt="">
+                                            </div>
+
+                                            <div class="foodCard__content">
+                                                <span class="foodCard__food-type typeLabel--red">Trending</span>
+                                                <h3 class="foodCard__food-title">The Chicken King</h3>
+                                                <div class="foodCard__food-description">
+                                                    <span class="foodCard__food-time">24min •</span>
+                                                    <div class="foodCard__food-rating">
+                                                        <img src="./img/icons/star1.svg" alt="">
+                                                        4.8
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="foodCard__addCart">
+                                            <div class="foodCard__addCart-price">$19<span>.99</span></div>
+                                            <div class="foodCard__addCart-plus">
+                                                <svg width="15.000000" height="15.000000" viewBox="0 0 15 15"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <path id="+"
+                                                        d="M14.28 8.36L7.94 8.36L7.94 14.78L5.41 14.78L5.41 8.36L-0.9 8.36L-0.9 6.06L5.41 6.06L5.41 -0.39L7.94 -0.39L7.94 6.06L14.28 6.06L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                                    <path id="+"
+                                                        d="M14.28 8.36L14.28 6.06L7.94 6.06L7.94 4.25L7.94 -0.39L5.41 -0.39L5.41 6.06L-0.9 6.06L-0.9 8.36L5.41 8.36L5.41 14.78L7.94 14.78L7.94 8.36L14.28 8.36L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide swiper-slide">
+                                    <a href="#" class="foodCard">
+                                        <div class="foodCard__inner">
+                                            <div class="foodCard__img">
+                                                <img src="./img/content/dishes-dish1.png" alt="">
+                                            </div>
+
+                                            <div class="foodCard__content">
+                                                <span class="foodCard__food-type typeLabel--orange">Healthy</span>
+                                                <h3 class="foodCard__food-title">The Chicken King</h3>
+                                                <div class="foodCard__food-description">
+                                                    <span class="foodCard__food-time">24min •</span>
+                                                    <div class="foodCard__food-rating">
+                                                        <img src="./img/icons/star1.svg" alt="">
+                                                        4.8
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="foodCard__addCart">
+                                            <div class="foodCard__addCart-price">$19<span>.99</span></div>
+                                            <div class="foodCard__addCart-plus">
+                                                <svg width="15.000000" height="15.000000" viewBox="0 0 15 15"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <path id="+"
+                                                        d="M14.28 8.36L7.94 8.36L7.94 14.78L5.41 14.78L5.41 8.36L-0.9 8.36L-0.9 6.06L5.41 6.06L5.41 -0.39L7.94 -0.39L7.94 6.06L14.28 6.06L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                                    <path id="+"
+                                                        d="M14.28 8.36L14.28 6.06L7.94 6.06L7.94 4.25L7.94 -0.39L5.41 -0.39L5.41 6.06L-0.9 6.06L-0.9 8.36L5.41 8.36L5.41 14.78L7.94 14.78L7.94 8.36L14.28 8.36L14.28 8.36Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> -->
+                            <div class="dishes__slider-pagination swiper-pagination"></div>
+                        </div>
+                        <a href="#" class="viewAll">
+                            <span>View All</span>
+                            <img src="./img/icons/arrow-right2.svg" alt="">
+                        </a>
+                    </div>
+                </div>
             </section>
         </div>
         <footer class="footer">
@@ -680,6 +999,7 @@
         </div>
 
     </div>
+    <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
